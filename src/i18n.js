@@ -46,38 +46,15 @@ export const i18n = {
     en: new Locale('January_February_March_April_May_June_July_August_September_October_November_December'.split('_'), null,
         'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_'), null, null, 7),
     /**
-     * Russian
+     * Polish
      */
-    ru: new Locale('январь_февраль_март_апрель_май_июнь_июль_август_сентябрь_октябрь_ноябрь_декабрь'.split('_'), 
-        'янв._февр._мар._апр._мая_июня_июля_авг._сент._окт._нояб._дек.'.split('_'), 
-        'воскресенье_понедельник_вторник_среда_четверг_пятница_суббота'.split('_'), 
-        'вс_пн_вт_ср_чт_пт_сб'.split('_'), 
-        'вс_пн_вт_ср_чт_пт_сб'.split('_'), 1, {
-            btnCancel: 'Отменить', btnClear: 'Очистить'
+    pl: new Locale('Styczeń_Luty_Marzec_Kwiecień_Maj_Czerwiec_Lipiec_Sierpień_Wrzesień_Październik_Listopad_Grudzień'.split('_'), 
+        'Sty._Lut._Mar._Kwi._Maj_Cze._Lip._Sie._Wrz._Paź._Lis._Gru.'.split('_'),
+        'Niedziela_Poniedziałek_Wtorek_Środa_Czwartek_Piątek_Sobota'.split('_'), 
+        'Niedz._Pon._Wt._Śr._Czw._Pt._Sob.'.split('_'), 
+        'Nd_Pn_Wt_Śr_Cz_Pt_Sb'.split('_'), 1, {
+            btnCancel: 'Anuluj', btnClear: 'Wyczyść'
         }),
-    /**
-     * Spanish
-     */
-    es: new Locale('enero_febrero_marzo_abril_mayo_junio_julio_agosto_septiembre_octubre_noviembre_diciembre'.split('_'), null, 
-        'domingo_lunes_martes_miércoles_jueves_viernes_sábado'.split('_'), 
-        'dom._lun._mar._mié._jue._vie._sáb.'.split('_'), null, 1, {
-            btnCancel: 'Cancelar', btnClear: 'Vaciar'
-        }),
-    /**
-     * Turkish
-     */
-    tr: new Locale('Ocak_Şubat_Mart_Nisan_Mayıs_Haziran_Temmuz_Ağustos_Eylül_Ekim_Kasım_Aralık'.split('_'), null, 
-        'Pazar_Pazartesi_Salı_Çarşamba_Perşembe_Cuma_Cumartesi'.split('_'), 
-        'Paz_Pts_Sal_Çar_Per_Cum_Cts'.split('_'), 
-        'Pz_Pt_Sa_Ça_Pe_Cu_Ct'.split('_'), 1),
-    /**
-     * Persian
-     */
-    fa: new Locale('ژانویه_فوریه_مارس_آوریل_مه_ژوئن_ژوئیه_اوت_سپتامبر_اکتبر_نوامبر_دسامبر'.split('_'), 
-        'ژانویه_فوریه_مارس_آوریل_مه_ژوئن_ژوئیه_اوت_سپتامبر_اکتبر_نوامبر_دسامبر'.split('_'), 
-        'یک\u200cشنبه_دوشنبه_سه\u200cشنبه_چهارشنبه_پنج\u200cشنبه_جمعه_شنبه'.split('_'), 
-        'یک\u200cشنبه_دوشنبه_سه\u200cشنبه_چهارشنبه_پنج\u200cشنبه_جمعه_شنبه'.split('_'), 
-        'ی_د_س_چ_پ_ج_ش'.split('_'), 1),
     /**
      * French
      */
@@ -98,37 +75,4 @@ export const i18n = {
         'So_Mo_Di_Mi_Do_Fr_Sa'.split('_'), 1, {
             btnCancel: 'Stornieren', btnClear: 'Löschen'
         }),
-    /**
-     * Japanese
-     */
-    ja: new Locale('一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月'.split('_'), 
-        '1月_2月_3月_4月_5月_6月_7月_8月_9月_10月_11月_12月'.split('_'),
-        '日曜日_月曜日_火曜日_水曜日_木曜日_金曜日_土曜日'.split('_'), 
-        '日曜_月曜_火曜_水曜_木曜_金曜_土曜'.split('_'), 
-        '日_月_火_水_木_金_土'.split('_'), 7),
-    /**
-     * Portuguese
-     */
-    pt: new Locale('janeiro_fevereiro_março_abril_maio_junho_julho_agosto_setembro_outubro_novembro_dezembro'.split('_'), null,
-        'Domingo_Segunda-feira_Terça-feira_Quarta-feira_Quinta-feira_Sexta-feira_Sábado'.split('_'), 
-        'Dom_Seg_Ter_Qua_Qui_Sex_Sáb'.split('_'), 
-        'Do_2ª_3ª_4ª_5ª_6ª_Sá'.split('_'), 1, {
-            btnCancel: 'Cancelar', btnClear: 'Clarear'
-        }),
-    /**
-     * Vietnamese
-     */
-    vi: new Locale('tháng 1_tháng 2_tháng 3_tháng 4_tháng 5_tháng 6_tháng 7_tháng 8_tháng 9_tháng 10_tháng 11_tháng 12'.split('_'), 
-        'Thg 01_Thg 02_Thg 03_Thg 04_Thg 05_Thg 06_Thg 07_Thg 08_Thg 09_Thg 10_Thg 11_Thg 12'.split('_'), 
-        'chủ nhật_thứ hai_thứ ba_thứ tư_thứ năm_thứ sáu_thứ bảy'.split('_'), 
-        'CN_T2_T3_T4_T5_T6_T7'.split('_'), 
-        'CN_T2_T3_T4_T5_T6_T7'.split('_'), 1),
-    /**
-     * Chinese
-     */
-    zh: new Locale('一月_二月_三月_四月_五月_六月_七月_八月_九月_十月_十一月_十二月'.split('_'),
-        '1月_2月_3月_4月_5月_6月_7月_8月_9月_10月_11月_12月'.split('_'),
-        '星期日_星期一_星期二_星期三_星期四_星期五_星期六'.split('_'),
-        '周日_周一_周二_周三_周四_周五_周六'.split('_'),
-        '日_一_二_三_四_五_六'.split('_'), 1)
 }
